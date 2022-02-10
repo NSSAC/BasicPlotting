@@ -80,6 +80,7 @@ while (True):
 
 avg_perc=1/len(x)
 num_nodes=len(x)
+# converts # of nodes into percentage
 y = np.full(num_nodes,avg_perc)
 x_min = min(x)
 x_max = max(x)
@@ -103,6 +104,7 @@ yvals=buckets = [0] * num_bins
 
 print("Len yvals", len(yvals))
 
+## sums the average percentage into the y buckets based on which bucket the x value falls into
 index=0
 for value in x:
     raw_pos =((value-x_min)/step_size)

@@ -6,6 +6,9 @@ These are some basic plotting codes to produce plots of structural analyses. The
 2. BinPlotGen.py
    This code is meant for datasets that have continuous x-axes, i.e. datasets where the x value is represented by real numbers.
 
+## Important note
+These codes are part of the CRISP pipeline.
+
 ## Steps to run
 Make sure that the python environment has the `matplotlib` library.
 Run `run.binplot.test.sh` and `run.onetoone.test.sh` and compare the output with the valid cases in the /test/test_results directory.

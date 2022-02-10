@@ -59,6 +59,7 @@ x = data[xCol]
 y = data[yCol]
 fig, ax = plt.subplots()
 
+# Matplotlib methods scatter the data
 ax.set_title(title, fontsize="30")
 ax.scatter(x, y, color="blue", marker="*")
 ax.tick_params(axis='x', labelsize=25)
