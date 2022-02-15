@@ -27,6 +27,7 @@ if (len(sys.argv) != 9):
     print(
         "usage: python PROGRAM_NAME.py input_file output_file xCol yCol delimiter title xlabel ylabel"
     )
+    print("You put in: ", sys.argv)
     print("Halt.")
     quit()
 
