@@ -1,0 +1,20 @@
+#Specify values here
+
+input_file=$1
+output_file=$2
+xCol=$3
+yCol=$4
+delimter=$5
+title=$6
+xLabel=$7
+yLabel=$8
+
+python ./src/BinPlotGen.py \
+	${input_file} \
+	${output_file} \
+	$xCol \
+	$yCol \
+	$delimter \
+	$title \
+	$xLabel \
+	$yLabel
